@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .big_div {
+            width: 839px;
+            height: 1682px;
+            background-color: #f5f5f5;
+            margin: auto;
+        }
+
+        .tu {
+            width: 814px;
+            height: 228px;
+            margin-top: 14px;
+            margin-left: 12px;
+        }
+
+        .span1 {
+            display: inline-block;
+            width: 814px;
+            height: 1424px;
+            background-color: #ffffff;
+            margin-left: 12px;
+        }
+
+        .span2 {
+            display: inline-block;
+            margin-left: 40px;
+            width: 734px;
+            height: 1424px;
+        }
+
+        h4 {
+            text-align: center;
+            font-weight: 400;
+        }
+
+        form {
+            width: 734px;
+            height: 1310px;
+        }
+
+        .blue_solid {
+            width: 734px;
+            height: 3px;
+            background-color: #53a4f4;
+            margin: 0;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .name {
+            display: inline-block;
+            width: 600px;
+            height: 55px;
+            margin-top: 34px;
+            margin-left: 4px;
+        }
+
+        .type_name {
+            width: 344px;
+            height: 27px;
+            margin-left: 10px;
+        }
+
+        .sex {
+            display: inline-block;
+            width: 380px;
+            height: 27px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        .type_num {
+            width: 363px;
+            height: 27px;
+            margin-left: 10px;
+        }
+
+        .type_sheng {
+            width: 138px;
+            height: 22px;
+            margin-left: 10px;
+        }
+
+        .type_city {
+            width: 96px;
+            height: 22px;
+        }
+
+        .type_dizhi {
+            width: 371px;
+            height: 48px;
+            margin-left: 10px;
+        }
+
+        .other {
+            width: 151px;
+            height: 25px;
+        }
+
+        .type_re_date {
+            width: 182px;
+            height: 33px;
+            margin-left: 10px;
+        }
+
+        .type_xxx {
+            width: 700px;
+            height: 40px;
+            margin-left: 10px;
+        }
+
+        .button {
+            background-color: #53a4f4;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-left: 19px;
+        }
+        .phone1 {
+            position:absolute;
+            top: 850px;
+            left: 415px;
+        }
+        .phone2 {
+            position: absolute;
+            top: 960px;
+            left: 415px;
+        }
+        .rili {
+            position: absolute;
+            top: 1402px;
+            left: 570px;
+        }
+        .sj1 {
+            position: absolute;
+            top: 1070px;
+            left: 535px;
+        }
+        .sj2 {
+            position: absolute;
+            top: 1070px;
+            left: 650px;
+        }
+        .sj3 {
+            position: absolute;
+            top: 1070px;
+            left: 765px;
+        }
+        .last {
+            position: absolute;
+            top: 1520px;
+            left: 640px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="big_div">
+        <div>
+            <img src="images/web表单上图.png" class="tu">
+            <span class="span1">
+                <span class="span2">
+                    <h4>学生延迟返校申请表</h4>
+                    <hr class="blue_solid">
+                    <form action="">
+                        <span class="name">
+                            学生姓名 <span class="red">*</span><br><br>
+                            <input type="text" class="type_name"><br>
+                        </span>
+                        <p style="margin-bottom:0px;">
+                            <span class="sex">
+                                性别 <span class="red">*</span><br>
+                                &nbsp;&nbsp;<input type="radio" name="sex" value="男" style="margin-top:21px;">
+                                &nbsp;&nbsp;男 <br>
+                                &nbsp;&nbsp;<input type="radio" name="sex" value="女" style="margin-top:15px;">
+                                &nbsp;&nbsp;女
+                            </span>
+                        </p>
+                        <span class="name" style="margin-top: 46px;">
+                            学号 <span class="red">*</span><br>
+                            <input type="text" class="type_name" style="margin-top: 14px;"><br>
+                        </span>
+                        <p>
+                            <span class="name">
+                                班级 <span class="red">*</span><br>
+                                <input type="text" class="type_name" style="margin-top: 14px;"><br>
+                            </span>
+                        </p>
+                        <span class="name">
+                            联系方式 <span class="red">*</span><br>
+                            <input type="text" class="type_num" style="margin-top: 14px;"><br>
+                        </span>
+                        <p>
+                            <span class="name">
+                                家长联系方式 <span class="red">*</span><br>
+                                <input type="text" class="type_num" style="margin-top: 14px;"><br>
+                            </span>
+                        </p>
+                        <span class="name">
+                            现居地址 <span class="red">*</span><br>
+                            <input type="text" class="type_sheng" value="请选择省份"
+                                style="margin-top: 14px;">&nbsp;&nbsp;<input type="text" class="type_city"
+                                value="请选择城市">&nbsp;&nbsp;<input type="text" class="type_city" value="请选择区/县">
+                            <input type="text" class="type_dizhi" value="详细地址" style="margin-top: 10px;">
+                        </span>
+                        <p style="margin-bottom:0px;">
+                            <span class="sex">
+                                延迟返校事由 <span class="red">*</span><br>
+                                &nbsp;&nbsp;<input type="radio" name="back" value="1" style="margin-top:21px;">
+                                &nbsp;&nbsp;确诊感染新型肺炎，正处于治疗期 <br>
+                                &nbsp;&nbsp;<input type="radio" name="back" value="2" style="margin-top:15px;">
+                                &nbsp;&nbsp;疑似感染新型肺炎，正处于医学观察期<br>
+                                &nbsp;&nbsp;<input type="radio" name="back" value="3" style="margin-top:15px;">
+                                &nbsp;&nbsp;新型肺炎患者密切接触者，正处于居家隔离期<br>
+                                &nbsp;&nbsp;<input type="radio" name="back" value="4" style="margin-top:15px;">
+                                &nbsp;&nbsp;其他&nbsp;&nbsp;<input type="text" class="other">
+                            </span>
+                        </p>
+                        <span class="name">
+                            计划返校日期 <span class="red">*</span><br>
+                            <input type="text" class="type_re_date" style="margin-top: 14px;"><br>
+                        </span>
+                        <p>
+                            <span class="name">
+                                证明材料上传（选填）<br>
+                                <input type="text" class="type_xxx" style="margin-top: 14px;"><br>
+                            </span>
+                        </p>
+                        <button class="button">提交</button>
+                        <img src="images/phone.png" alt="" class = "phone1">
+                        <img src="images/phone.png" alt="" class = "phone2">
+                        <img src="images/rili.png" alt="" class = "rili">
+                        <img src="images/sanjiao.png" alt="" class = "sj1">
+                        <img src="images/sanjiao.png" alt="" class = "sj2">
+                        <img src="images/sanjiao.png" alt="" class = "sj3">
+                        <img src="images/wenjian.png" alt="" class = "last">
+                    </form>
+                </span>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
