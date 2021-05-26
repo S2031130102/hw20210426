@@ -1,0 +1,59 @@
+.bk {
+    width: 960px;
+    margin: auto;
+    background-color: #dad5d5;
+}
+
+.area1 {
+    width: 938px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.area2 {
+    width: 880px;
+    margin: auto;
+}
+
+.area3 {
+    width: 850px;
+    margin: auto;
+}
+
+button {
+    background-color: #53a4f4;
+    border: none;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    color: #fff;
+    width: 104px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.logo1 {
+    background: url(../logo/手机.png) no-repeat scroll;
+    background-size: 14px;
+}
+
+.logo2 {
+    background: url(../logo/日\ 历.png) no-repeat scroll right;
+    background-size: 18px;
+}
+
+.area4 {
+    width: 820px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border: 1px solid #333;
+}
+
+.area4 div {
+    margin-left: 300px;
+}
+
+input {
+    border: 1px solid #333;
+}
