@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.zy {
+  width: 839px;
+  height: 1682px;
+  background-color: #f5f5f5;
+  margin: auto;
+}
+
+.s {
+  width: 814px;
+  height: 228px;
+  margin-top: 14px;
+  margin-left: 12px;
+}
+
+.sp {
+  display: inline-block;
+  width: 814px;
+  height: 1424px;
+  background-color: #ffffff;
+  margin-left: 12px;
+}
+
+.sp2 {
+  display: inline-block;
+  margin-left: 40px;
+  width: 734px;
+  height: 1424px;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 400;
+}
+
+form {
+  width: 734px;
+  height: 1310px;
+}
+
+.bs {
+  width: 734px;
+  height: 3px;
+  background-color: #53a4f4;
+  margin: 0;
+}
+
+.red {
+  color: red;
+}
+
+.name {
+  display: inline-block;
+  width: 600px;
+  height: 55px;
+  margin-top: 34px;
+  margin-left: 4px;
+}
+
+.type_name {
+  width: 344px;
+  height: 27px;
+  margin-left: 10px;
+}
+
+.sex {
+  display: inline-block;
+  width: 380px;
+  height: 27px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.type_num {
+  width: 363px;
+  height: 27px;
+  margin-left: 10px;
+}
+
+.type_sheng {
+  width: 138px;
+  height: 22px;
+  margin-left: 10px;
+}
+
+.type_city {
+  width: 96px;
+  height: 22px;
+}
+
+.type_dizhi {
+  width: 371px;
+  height: 48px;
+  margin-left: 10px;
+}
+
+.other {
+  width: 151px;
+  height: 25px;
+}
+
+.type_re_date {
+  width: 182px;
+  height: 33px;
+  margin-left: 10px;
+}
+
+.type_xxx {
+  width: 700px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: #53a4f4;
+  border: none;
+  color: white;
+  padding: 7px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 19px;
+  border-radius: 5px
+}
+.phone1 {
+  position:absolute;
+  top: 850px;
+  left: 415px;
+}
+.phone2 {
+  position: absolute;
+  top: 960px;
+  left: 415px;
+}
+
+
+}
+.last {
+  position: absolute;
+  top: 1520px;
+  left: 640px;
+} 
