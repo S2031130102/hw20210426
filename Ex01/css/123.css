@@ -1,0 +1,37 @@
+body{
+    color: #666666;
+}
+
+img{
+    margin:0 0 0 350px;
+}
+
+.biaoti{
+	font-family: 微软雅黑;
+	border-bottom:4px solid #53a4f4;
+}
+
+span{
+    color: red;
+}
+
+
+.xuesheng{
+    color: #666666;
+}
+
+.firstname1{
+    background: url(../img/p2.png) no-repeat;
+    background-position:0 50%;
+}
+
+.firstname2{
+    background: url(../img/p3.png) no-repeat;
+    background-position: 100% 0;
+}
+
+.firstname3{
+    background: url(../img/p4.png) no-repeat;
+    background-position: 30% 0;
+    text-align: center;
+}
