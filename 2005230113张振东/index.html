@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="css/style.css">
+    <form>
+        <img type="image" src="img/photo.png" name="image1" />
+        <div class="school">
+            <h3>学校延迟返校申请表</h3>
+            <p> 学生姓名<span> *</span></br>
+                <input name="name" type="text" style="width:340px">
+            </p>
+            性别
+            <br />
+            <input type="radio" name="sex" value="male">男<br>
+            <input type="radio" name="sex" value="female">女<br>
+            <p>学号<span> *</span></br>
+                <input name="name" type="text" style="width:340px">
+            </p>
+            <br>
+            <p>班级<span> *</span></br>
+                <input name="name" type="text" style="width:340px">
+            </p>
+            <br>
+            <div>
+                <p>联系方式<span> *</span></br>
+                    <input class="telephone" name="name" type="text" style="width:340px">
+                </p>
+            </div>
+            <p>家长联系方式<span> *</span></br>
+                <input class="telephone" name="name" type="text" style="width:340px">
+            </p>
+            现居地址
+            <br>
+            <select name="address">
+                <option value="1">福建省</optiom>
+                <option value="2">河北省</optiom>
+                <option value="3">江西省</optiom>
+                <option value="4">云南省</optiom>
+            </select>
+            <select name="city">
+                <option value="1">黄河市</optiom>
+                <option value="2">钜零市</optiom>
+                <option value="3">川上市</optiom>
+                <option value="4">沙子市</optiom>
+                <option value="5">壁鱼市</optiom>
+            </select>
+            <select name="distect">
+                <option value="1">芜湖区</optiom>
+                <option value="2">大司马</optiom>
+                <option value="3">沙漠活佛</optiom>
+                <option value="4">吉祥区</optiom>
+                <option value="5">啦啦啦</optiom>
+            </select>
+            <br>
+            <textarea name="showText"  cols="47"  rows="3" placeholder="详细地址" > </textarea  ><br>
+            延迟返校事由<span> *</span></br>
+            <input name="sex" value="1" type="radio">確診感染新型肺炎，正處於治療期<br />
+            <input name="sex" value="0" type="radio" checked="checked">疑似感染新型肺炎，正处于医学观察期<br>
+            <input name="sex" value="0" type="radio" checked="checked">新型肺炎密切接触者，正处于居家隔离<br>
+            <input name="sex" value="0" type="radio" checked="checked">其他
+            <input name="name" type="text" style="width:130px"> </p>
+            </br>
+            <p> 计划返校日期<span> *</span></br>
+                <input class="calendar" name="name" type="text" style="width:150px">
+            </p>
+            <p>证明材料上传（选填) </p>
+            </br>
+
+            <label id="realBtn" class="btn">
+                <input type="file" id="fileInput1" name="file" class="mFileInput"
+                    style="left:-9999px;position:absolute;">
+                <div class="zzd" >
+                    <span class="wz">选择文件（上限3个，每个30M以内）</span>
+                </div>
+            </label><br>
+            <input type="image" src="img/commit.png">
+        </div>
+    </form>
+</body>
+
+</html>
