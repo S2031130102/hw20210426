@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生延迟返校调查表</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <img class="chair" src="./image/chair.png" alt="" srcset="">
+    <nav>
+        <p class="diaochabiao">学生延迟返校调查表</p>
+        <nav class="line"></nav>
+        <form action="">
+            <ul>
+            <li class="student">学生姓名</li>
+            <input class="form1" type="text" name="学生姓名 value="">
+           
+            <li class="sex">性别</li> 
+            <input class="nan" id="man" type="radio"  name="sex"> 男<br>
+            <input class="nv" type="radio" id="woman" name="sex"> 女<br>
+           
+            <li class="id">学号</li>
+            <input class="form3" type="text">
+            
+            <li class="class">班级</li>
+            <input class="form4" type="text">
+           
+            <li class="tel">联系方式</li>
+            <input class="form5" type="text">
+           
+            <li class="tel1">家长联系方式</li>
+            <input class="form6" type="text">
+
+            <li class="address">现居地址</li>
+             <!--省份选择-->
+             <select class="form7" id="prov" onchange="showCity(this)">
+                <option> 请选择省份 </option>
+            </select>
+            <!--城市选择-->
+            <select class="form8" id="city" onchange="showCountry(this)">
+                <option> 请选择城市 </option>
+            </select>
+            <!--县区选择-->
+            <select class="form9" id="country" onchange="selecCountry(this)">
+                <option> 请选择区/县 </option>
+            </select>
+            <nav></nav>
+            <input class="form10" type="text" value="详细地址">
+
+            <li class="reason">延期返校缘由</li>
+            <input class="form11" type="radio"> 确诊感染新型肺炎，正处于治疗期<br>
+            <input class="form12" type="radio"> 疑似感染心性肺炎，正处于医学观察期<br>
+            <input class="form13" type="radio"> 新型肺炎患者密切接触者，正处于居家隔离期<br>
+            <input class="form14" type="radio"> 其他 <input type="text" name="" id=""><br>
+            
+            <li class="date">计划返校日期</li>
+            <input class="form15" type="text">
+
+            <li class="file">证明材料上传(选填)</li>
+            <input class="form16" type="text"><br>
+
+            <input class="tijiao" type="submit" value="提交">
+    </form>
+</ul>
+    </nav>
+</body>
+</html>
