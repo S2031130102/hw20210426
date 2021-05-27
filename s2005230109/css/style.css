@@ -1,0 +1,112 @@
+*{margin: 0px;
+    padding: 0px;}
+
+    body{
+        margin-left: 20%;
+        text-align: center;
+        width: 850px;
+        height: 1600px;
+    }
+
+    .wxx img{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .wxx input{
+        border:0px;
+        margin-top: 0px;
+        width: 325px;
+        height: 20px;
+        padding-top: 5px;
+    }
+
+    .dz{
+        margin-left: 10px;
+        margin-top:10px;
+        border: 2px solid #8d7d7d;
+    }
+    .cl{
+        border: 2px solid #ec7373;
+        width: 733px;
+        height: 38px;
+        text-align: center;
+    }
+    .rq{
+        width: 180px;
+        background-position-x: 160px; 
+        border: 2px solid #dbdbdb;
+    }
+    caption::after{
+        display: block;
+        content: " ";
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 750px;
+        height: 3px;
+        border-bottom: 3px solid #53a4f4;
+    }
+    .lst{
+        margin-left: -500px;
+        margin-bottom: -5px;
+    }
+    .xxd{
+        border: 2px solid #dbdbdb;
+         width: 400px;
+          padding-bottom: 47px;
+    }
+    .ann{
+        background: #80a1c2;width: 103px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        color:white;
+    }
+    .xxi{
+        width: 350px;
+        height: 30px;
+        border: 2px solid #dbdbdb;
+    }
+    table{
+        margin-top: 35px;
+        border-spacing: 50px;
+
+    }
+    .jz{
+        position: absolute;
+        border:0px;
+        margin-top: 0px;
+        width: 325px;
+        height: 18px;
+        padding-top: 6px;
+    }
+    header{
+        background: #c9c7c7;
+        width: 814px;
+    }
+    
+    p{
+        color: #666666;
+        display: inline;
+    }
+    .x::after{
+        color: #f5828e;
+        content: " *";
+    }
+    form{
+        margin-bottom: 35px;
+        text-align: left;
+        margin-left: 52px;
+    }
+    input{
+        margin-left: 10px;
+        margin-top: 10px;
+        outline: none;
+    }
+    .lx{
+        border: 2px solid #cec9c9;
+        width: 360px;
+        height: 26px;
+        margin-top:10px;
+        margin-bottom: 35px;
+        margin-left: 10px;
+    }
