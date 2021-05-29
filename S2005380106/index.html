@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg">
+        <img src="images/chair.png" alt="">
+        <p class="biao">学生延迟返校申请表</p>
+        <div class="line"></div>
+        <div class="st">
+            <p>学生姓名<span>&nbsp;*</span></p>
+            <input class="student" type="text">
+            <p>性别<span>&nbsp;*</span></p>
+            <form action="">
+                <input type="radio" name="sex">
+                <label for="">男</label><br>
+                <input type="radio" name="sex">
+                <label for="">女</label>
+            </form>
+            <p>学号<span>&nbsp;*</span></p>
+            <input class="student" type="text">
+            <p>班级<span>&nbsp;*</span></p>
+            <input class="student" type="text">
+            <p>联系方式<span>&nbsp;*</span></p>
+            <input class="contact" type="text">
+            <p>家长联系方式<span>&nbsp;*</span></p>
+            <input class="contact" type="text">
+            <p>现居地址<span>&nbsp;*</span></p>
+            <select class="sf" name="" id="">
+                <option value="">请选择省份</option>
+                <option value="">福建省</option>
+                <option value="">广东省</option>
+                <option value="">浙江省</option>
+                <option value="">湖南省</option>
+                <option value="">江西省</option>
+            </select>
+            <select class="city" name="" id="">
+                <option value="">请选择城市</option>
+                <option value="">泉州市</option>
+                <option value="">龙岩市</option>
+                <option value="">南平市</option>
+            </select>
+            <select class="quxian" name="" id="">
+                <option value="">请输入区/县</option>
+                <option value="">丰泽区</option>
+            </select><br>
+            <textarea name="" id="" cols="30" rows="10">详细地址</textarea>
+            <p>延迟返校事由<span>&nbsp;*</span></p>
+            <form action="">
+                <input type="radio" name="back">
+                <label for="">确诊感染新型肺炎，正处于治疗期</label><br>
+                <input type="radio" name="back">
+                <label for="">疑似感染新型肺炎，正处于医学观察期</label><br> 
+                <input type="radio" name="back">
+                <label for="">新型肺炎患者密切接触者，正处于居家隔离期</label><br>  
+                <input type="radio" name="back">
+                <label for="">其他 <input class="other" type="text"></label>
+            </form>
+            <p>计划返校日期<span>&nbsp;*</span></p>
+            <input class="date" type="text">
+            <p>证明材料上传（选填）</p>
+            <div class="file">
+                <img src="images/file.png" alt="">
+                <input type="file">
+                <span class="wj">选择文件(上限3个，每个30M以内)</span>
+            </div>
+            <label for="">
+                <input class="tj" type="submit">
+            </label>
+        </div>
+    </div>
+</body>
+</html>
