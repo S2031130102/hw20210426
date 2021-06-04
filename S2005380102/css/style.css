@@ -1,0 +1,60 @@
+body{
+margin: 0px;
+background-color: #f5f5f5;
+
+}
+.sbian{
+    margin-top: 60px;
+}
+
+.jz{
+
+width: 815px;
+margin: 0 auto;
+background-color: rgb(255, 255, 255);
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 45px;
+}
+.zx{
+    margin: 0 auto;
+    background: #53a4f4;
+    width: 735px;
+    height: 3px;
+}
+form{
+    margin: 0 auto;
+    width: 735px;
+    height: 1200px;
+}
+input{
+    margin-bottom: 10px;
+}
+textarea{
+    margin-top: 5px;
+}
+.wj{
+    width: 735px;
+    height: 40px;
+    border: solid 1px black;
+    text-align: center;
+    line-height: 1.5;
+    padding-top:  15px;
+}
+.tj{
+    border-radius: 10px;
+    margin-top: 60px;
+    padding-top: 12px;
+    color: rgb(255, 255, 255);;
+    text-align: center;
+    height: 35px;
+    width: 105px;
+    background: #53a4f4;
+}
+.tj1{
+    margin: 0;
+}
