@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div class="project">
+        <div class="project-t">
+            <img src="./images/tupian.png" alt="">
+        </div>
+        <h2>学生延迟返校申请表</h2>
+        <div class="project-h"></div>
+        <a class="frist" href="">学生姓名 </a><span>*</span> <br>
+        <input class="one" type="text">
+        <br>
+        <a class="second" href="">性别</a><span>*</span> <br>
+        <input class="two" type="radio" name="sex">
+        <label for="">男</label>
+        <br>
+        <input class="three" type="radio" name="sex">
+        <label for="">女</label> <br>
+        <a class="second" href="">学号 </a><span>*</span> <br>
+        <input class="one" type="text"> <br>
+        <a class="second" href="">班级 </a><span>*</span> <br>
+        <input class="one" type="text"> <br>
+        <a class="second" href="">联系方式 </a><span>*</span> <br>
+        <input class="one" type="text"> <br>
+        <a class="second" href="">家长联系方式 </a><span>*</span> <br>
+        <input class="one" type="text"> <br>
+        <a class="second" href="">现居地址 </a><span>*</span> <br>
+        <select class="two" name="state" id="state">
+            <option value="">请选择省份</option>
+            <optgroup label="">
+                <option value="fj">福建省</option>
+                <option value="gz">广州省</option>
+                <option value="">其他省份</option>
+            </optgroup>
+        </select>
+        <select name="state" id="state">
+            <option value="">请选择城市</option>
+            <optgroup label="">
+                <option value="fj">泉州市</option>
+                <option value="gz">福州市</option>
+                <option value="">其他城市</option>
+            </optgroup>
+        </select>
+        <select name="state" id="state">
+            <option value="">请选择区/县</option>
+            <optgroup label="">
+                <option value="fj">丰泽区</option>
+                <option value="gz">惠安县</option>
+                <option value="">其他区或县</option>
+            </optgroup>
+        </select>
+        <br>
+        <textarea class="one" name="详细地址" id="详细地址" cols="40" rows="3">详细地址</textarea> <br>
+        <a class="second" href="">延迟返校事由</a><span>*</span> <br>
+        <input class="two" type="radio" name="tf">
+        <label >确诊感染新型肺炎，正处于治疗期</label><br>
+        <input class="four" type="radio" name="tf">
+        <label for="">疑似感染新型肺炎，正处于医学观察期</label> <br>
+        <input class="four" type="radio" name="tf">
+        <label for="">新型肺炎患者密切接触者，正处于居家隔离期</label> <br>
+        <input class="three" type="radio" name="tf">
+        <label for="">其他</label>
+        <input type="text"> <br>
+        <a class="second" href="">计划返校日期 </a><span>*</span> <br>
+        <input class="one" type="text"> <br>
+        <a class="second" href="">证明材料上传(选填) </a> <br>
+        <input class="last" type="text"> <br>
+        <button class="button">提交</button>
+    </div>
+</body>
+
+</html>

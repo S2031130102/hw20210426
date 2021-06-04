@@ -1,0 +1,87 @@
+body{
+    font: 12px "SimSun","宋体";
+    margin: 0;
+}
+
+.project{
+    width: 840px;
+    margin: 0 auto;
+}
+
+.project-t{
+    margin: 13px 13px 0 13px;
+}
+
+h2{
+    padding-left: 337px;
+    padding-top: 16px;
+    padding-bottom: 43px;
+}
+
+.project-h{
+    width: 733px;
+    height: 3px;
+    background-color: #53a4f4;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    font: 14px "SimSun","宋体";
+    color: #000;
+}
+
+span{
+    color: red;
+}
+
+.frist{
+    margin-left: 56px;
+}
+
+.one{
+    width: 300px;
+    margin-top: 14px;
+    margin-left: 66px;
+    margin-bottom: 40px;
+}
+
+.second{
+    margin-left: 56px;
+}
+
+.two{
+    margin-bottom: 13px;
+    margin-top: 20px;
+    margin-left: 66px;
+}
+
+.three{
+    margin-left: 66px;
+    margin-bottom: 48px;
+}
+
+.four{
+    margin-left: 66px;
+    margin-bottom: 13px;
+}
+
+.button{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 104px;
+    padding: 10px 0 10px 0px;
+    background-color: #53a4f4;
+    border: none;
+}
+
+.last{
+    width: 734px;
+    margin: 0 auto;
+    margin-top: 13px;
+    margin-left: 66px;
+    margin-bottom: 55px;
+    padding: 10px 0 10px 0;
+}
