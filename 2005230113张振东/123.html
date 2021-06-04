@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">我要撑开页面有高度</div>
+    style{ .main{ width:100%; height:100vh; } } //有标题内容的情况下
+
+    <div class="title>标题</div>
+<div class=" main ">我要撑开页面有高度</div>
+style{
+    .title{
+       height:46px;
+    }
+    .main{
+       margin-top:46px;
+       height:calc(100vh - 46px);
+    }
+}
+</body>
+</html>
