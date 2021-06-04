@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生延迟返校申请表</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="biao">
+        <div>
+            <img class="zhu" src="images/zhu.png" alt="">
+        </div>
+        <h1>学生延迟返校申请表</h1>
+        <form>
+            <p>学生姓名 <span class="xing">* </span></p>
+            <input class="xm"  type="text">
+            <p>性别<span class="xing">*</span></p>
+            <div>
+                <label>
+                    <input class="xb" type="radio" name="xb" value=""><span class="jj">男</span>
+                </label><br>
+                <label>
+                    <input class="xb" type="radio" name="xb" value=""><span class="jj">女</span>
+                </label>
+            </div>
+            <p>学号 <span class="xing">* </span></p>
+            <input class="xm"  type="text">
+            <p>班级 <span class="xing">* </span></p>
+            <input class="xm"  type="text">
+            <p>联系方式 <span class="xing">* </span></p>
+            <input class="xm" style=" background-image: url(images/sj.png); background-repeat: no-repeat; padding-left: 25px;" type="text">
+            <p>家长联系方式 <span class="xing">* </span></p>
+            <input class="xm" style=" background-image: url(images/sj.png); background-repeat: no-repeat; padding-left: 25px;" type="text">
+            <p>现居地址 <span class="xing">* </span></p>
+            <select name="" id="">
+                <option value="">请选择省份 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</option>
+                <option value="">福建省</option>
+            </select>
+            <select name="" id="">
+                <option value="">请选择市</option>
+                <option value="">泉州市</option>
+            </select>
+            <select name="" id="">
+                <option value="">请选择区/县</option>
+                <option value="">丰泽区</option>
+            </select>
+            <br>
+            <textarea rows="2" style="resize:none;">详细地址</textarea>
+            <p>延迟返校事由 <span class="xing">* </span></p>
+            <div class="sy">
+                <label>
+                    <input type="radio" name="sy1" value="">确诊新型肺炎，正处于治疗期<br>
+                </label>
+                <label>
+                    <input type="radio" name="sy1" value="">疑似新型肺炎，正处于医学观察期<br>
+                </label>
+                <label>
+                    <input type="radio" name="sy1" value="">新型肺炎患者密切接触者，正处于居家隔离期<br>
+                </label>
+                <label>
+                    <input type="radio" name="sy1" value="">其他 <input type="text" name="">
+                </label>
+            </div>
+            <p>计划返校日期</p>
+            <input type="date">
+            <p>证明材料上传（选填）</p>
+            <div class="wj">
+                <img src="images/tu1.png" alt="">
+                <input type="file" name="" id=""><span class="xz">选择文件(上限3个，每个30M以内)</span>
+            </div>
+            <label>
+                <div class="ti">
+                    <input type="submit" name="" id="">
+                    <p class="ti1"></p>提交</p>
+                </div>
+            </label>
+        </form>
+    </div>
+</body>
+</html>
