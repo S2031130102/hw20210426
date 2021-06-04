@@ -1,0 +1,46 @@
+.main{
+    padding:0;
+    margin:0;
+    width: 1000px;
+    margin-left:500px;
+}
+
+.main{
+    color:#666;
+}
+.hr{
+    background-color: rgb(7, 121, 167);
+    border: none;
+    height: 3px;
+    width: 800px;
+    margin-left: 0px;
+}
+
+.h3{
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    width: 800px;
+}
+
+.mian-1{
+    font-size: 20px;
+}
+
+.mian_1 input{
+    width: 350px;
+    height: 25px;
+    margin-left: 10px;
+}
+.mian_2 input{
+    margin-left: 10px;
+}
+
+.mian_2 .text-font{
+    margin-bottom: 10px;
+}
+
+.mian_1 .text-font{
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
