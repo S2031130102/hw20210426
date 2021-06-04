@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ header{
+        background: #ffffff;
+        width: 814px;
+    }
+ body{
+        margin-left: 20%;
+        background: #f5f5f5;
+        text-align: center;
+        width: 841px;
+        height: 1682px;
+    }
+
+
+    .ann{
+        background: #53a4f4;width: 103px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        color:white;
+    }
+    .jz{
+        position: absolute;
+        border:0px;
+        margin-top: 0px;
+        width: 325px;
+        height: 18px;
+        padding-top: 6px;
+    }
+ .lx input{
+        border:0px;
+        margin-top: 0px;
+        width: 325px;
+        height: 18px;
+        padding-top: 6px;
+    }
+ caption::after{
+        display: block;
+        content: " ";
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 734px;
+        height: 3px;
+        border-bottom: 3px solid #53a4f4;
+    }
+   
+ .lx input{
+        border:0px;
+        margin-top: 0px;
+        width: 325px;
+        height: 18px;
+        padding-top: 6px;
+    }
+    
+    p{
+        color: #666666;
+        display: inline;
+    }
+    .x::after{
+        color: #ff6d7c;
+        content: " *";
+    }
+input{
+        margin-left: 10px;
+        margin-top: 10px;
+        outline: none;
+    }
+ .rq{
+        width: 180px;
+        background-position-x: 160px; 
+        border: 2px solid #dbdbdb;
+    }
+    form{
+        margin-bottom: 34px;
+        text-align: left;
+        margin-left: 52px;
+    }
+    .lx img{
+        margin-left: 10px;
+        margin-top: 6px;
+    }
+   
+    .xxi{
+        width: 340px;
+        height: 26px;
+        border: 2px solid #dbdbdb;
+    }
+    table{
+        margin-top: 35px;
+        border-spacing: 46px;
+
+    }
+    .dz{
+        margin-left: 10px;
+        margin-top:10px;
+        border: 2px solid #dbdbdb;
+    }
+    .cl{
+        border: 2px solid #dbdbdb;
+        width: 733px;
+        height: 38px;
+        text-align: center;
+    }
+    .rq{
+        width: 180px;
+        background-position-x: 160px; 
+        border: 2px solid #dbdbdb;
+    }
+
+    .lst{
+        margin-left: -500px;
+        margin-bottom: -5px;
+    }
+    .xxd{
+        border: 2px solid #dbdbdb;
+         width: 400px;
+          padding-bottom: 47px;
+    }
+    .lx{
+        border: 2px solid #dbdbdb;
+        width: 361px;
+        height: 26px;
+        margin-top:10px;
+        margin-bottom: 34px;
+        margin-left: 10px;
+    }
