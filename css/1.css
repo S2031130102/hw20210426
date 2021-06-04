@@ -1,0 +1,79 @@
+
+.zhuti{
+  margin: auto;
+  width: 800px;
+  height: 1600px;
+}
+.tupian{
+  margin-left: 15px;
+}
+.biaoti{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.name{
+  margin-left: 50px;
+}
+.cixuan{
+  margin-left: 42px;
+  margin-top: 40px;
+}
+.zhongyao{
+  color: red;
+}
+.sex{
+  margin-left: 45px;
+}
+.phone{
+margin-left: -405px;
+margin-bottom: -2px;
+}
+.phone1{
+  margin-left: -525px;
+  margin-bottom: -10px;
+  }
+.duoxuan1{
+margin-left: 50px;
+width: 150px;
+  height: 20px;
+  font-size: 12px;
+}
+.duoxuan2{
+  margin-left: 10px;
+  width: 100px;
+  height: 20px;
+
+}
+.dakuang{
+  font-size: 12px;
+  resize: none;
+  width: 360px;
+  height: 45px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.qita{
+  margin-left: 10px;
+}
+.rili{
+  margin-left: -35px;
+margin-bottom: -10px;
+}
+.tijiao{
+  width: 104px;
+  height: 36px;
+  background-color: #53A4F4;
+  margin-left: 60px;
+  margin-top: 55px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+.wenjian{
+  margin-left: 300px;
+}
+.wenjian1{
+  margin-top: -100px;
+}
