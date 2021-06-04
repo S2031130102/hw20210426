@@ -1,0 +1,200 @@
+body{
+    width: 1440px;
+    margin:0 auto;
+}
+
+.chair{
+    margin: 0 0 0 300px;
+    width: 813px;
+    height: 228px;
+}
+
+/* 标题 */
+.diaochabiao{
+    margin: 35px 0 0 640px;
+}
+
+/* 蓝色分界线 */
+.line{
+    border-style:solid;
+    border-color: #53a4f4;
+    width: 735px;
+    margin: 45px 0 0 330px;
+}
+
+/* 消除li点 */
+ul{
+    list-style-type:none;
+}
+/* 生成红色* */
+li:after{
+    content: '*';
+    color: red;
+}
+
+/* 姓名一栏 */
+.student{
+    margin: 33px 0 0 330px;
+}
+
+.form1{
+    margin: 14px 0 0 340px;
+    width: 342px;
+    height: 27px;
+}
+
+/* 性别一栏 */
+.sex{
+    margin: 33px 0 0 330px;
+}
+
+.nan{
+    margin: 14px 0 0 340px;
+    height: 16px;
+    width: 16px;
+}
+
+.nv{
+    margin: 7px 0 0 340px;
+    height: 16px;
+    width: 16px;
+}
+
+/* 学号一栏 */
+.id{
+    margin: 33px 0 0 330px;
+}
+
+.form3{
+    margin: 14px 0 0 340px;
+    width: 342px;
+    height: 27px;
+}
+
+/* 班级一栏 */
+.class{
+    margin: 33px 0 0 330px;
+}
+
+.form4{
+    margin: 14px 0 0 340px;
+    width: 342px;
+    height: 27px;
+}
+
+/* 本人电话一栏 */
+.tel{
+    margin: 33px 0 0 330px;
+}
+
+.form5{
+    margin: 14px 0 0 340px;
+    background: url(../image/tel.png) no-repeat 10px ;
+    width: 342px;
+    height: 27px;
+    padding-left: -100px;
+    margin-right: 10px; 
+}
+
+/* 家长电话一栏 */
+.tel1{
+    margin: 33px 0 0 330px;
+}
+
+.form6{
+    margin: 14px 0 0 340px;
+    background: url(../image/tel.png) no-repeat 10px ;
+    width: 342px;
+    height: 27px;
+    padding-left: -100px;
+    margin-right: 10px; 
+}
+
+/* 地址一栏 */
+.address{
+    margin: 33px 0 0 330px;
+}
+/* 省 */
+.form7{
+    margin: 14px 0 0 340px;
+    width: 140px;
+    height: 21px;
+}
+/* 市 */
+.form8{
+    margin: 14px 0 0 0;
+    width: 100px;
+    height: 21px;
+}
+/* 区县 */
+.form9{
+    margin: 14px 0 0 0;
+    width: 100px;
+    height: 21px;
+}
+/* 详细地址 */
+.form10{
+    margin: 11px 0 0 340px;
+    width: 360px;
+    height: 36px;
+}
+
+/* 延期缘由 */
+.reason{
+    margin: 33px 0 0 330px;
+}
+/* 选项一 */
+.form11{
+    margin: 14px 0 0 340px;
+}
+/* 选项二 */
+.form12{
+    margin: 14px 0 0 340px;
+}
+/* 选项三 */
+.form13{
+    margin: 14px 0 0 340px;
+}
+/* 选项四 */
+.form14{
+    margin: 14px 0 0 340px;
+}
+
+/* 返校日期一栏 */
+.date{
+    margin: 33px 0 0 330px;
+}
+
+
+.form15{
+    margin: 14px 0 0 340px;
+    background: url(../image/date.png) no-repeat 160px;;
+    width: 180px;
+    height: 33px;
+    padding-left: -100px;
+    margin-right: 10px; 
+}
+/* 材料上传一栏 */
+.file{
+    margin: 33px 0 0 330px;
+    content: none;
+}
+
+.form16{
+    margin: 14px 0 0 340px;
+    background: url(../image/wenjian.png) no-repeat 280px;;
+    width: 735px;
+    height: 40px;
+}
+
+/* 提交按钮 */
+.tijiao{
+    margin: 95px 0 86px 340px;
+    width: 105px;
+    height: 35px;
+    background-color: #53a4f4;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
