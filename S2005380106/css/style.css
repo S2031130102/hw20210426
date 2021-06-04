@@ -1,0 +1,150 @@
+body{
+    color: #666666;
+    background-color: #f5f5f5;
+}
+.bg{
+    margin: auto;
+    width: 814px;
+    height: 1651px;
+    background-color:#ffffff;
+}
+
+.biao{
+    margin: 48px 0;
+    text-align: center;
+}
+
+.line{
+    margin: auto;
+    width: 734px;
+    height: 3px;
+    background-color:#53a4f4;
+}
+
+span{
+    color: red;
+}
+
+.st{
+    margin: auto;
+    width: 743px;
+    margin-left: 45px;
+}
+
+p{
+    margin-bottom: 13px;
+    margin-top: 34px;
+}
+
+.student{
+    margin-left: 10px;
+    width: 342px;
+    height: 27px;
+}
+
+input{
+    color: #666666;
+    border: solid 1px #dbdbdb;
+}
+
+.contact{
+    background-image: url(../images/phone.png);
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    background-position-y: 6px;
+    margin-left: 10px;
+    padding-left: 26px;
+    height: 27px;
+    width: 363px;
+}
+
+.sf{
+    margin-left: 10px;
+    width: 135px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.city{
+    margin-left: 5px;
+    width: 95px;
+    height: 20px;
+}
+
+.quxian{
+    height: 20px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+select{
+    font-size: 12px;
+    color: #666666;
+    border: solid 1px #dbdbdb;
+}
+
+textarea{
+    color: #666666;
+    border: solid 1px #dbdbdb;
+    resize: none;
+    width: 361px;
+    height: 48px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+label{
+    color: #666666;
+    font-size: 13px;
+}
+
+.other{
+    width: 150px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.date{
+    background-image: url(../images/calendar.png);
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    background-position-y: 8px;
+    width: 181px;
+    height: 33px;
+    margin-left: 10px;
+}
+
+.file{
+    width: 734px;
+    height: 40px;
+    border: solid 1px #dbdbdb;
+    text-align: center;
+    line-height: 2.5;
+    position: relative; 
+    background: #fafafa;
+    border-radius: 2px;
+}
+
+.file input{
+    width: 734px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.wj{
+    color: #666;
+}
+
+.tj{
+    background-color: #53a4f4;
+    color: white;
+    border-radius: 3px;
+    margin-top: 55px;
+    width: 104px;
+    height: 36px;
+    cursor: pointer;
+}
