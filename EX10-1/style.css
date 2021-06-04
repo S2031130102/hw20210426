@@ -1,0 +1,240 @@
+body{
+    margin: auto;
+}
+.one{
+    height: 1683px;
+    width: 839px;
+    border: 1px solid white;
+    background-color:#f5f5f5;
+    margin-left: 300px;
+}
+.two{
+    width: 814px;
+    height: 1653px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    margin-left: 12px;
+    margin-top: 14px;
+    display: block;
+}
+.desk{
+    display: block;
+}
+.a{
+    display: block;
+    margin-top: 34px;
+    text-align: center;
+}
+.b{
+    font-size: 14px;
+    display: block;
+    float: left;
+    margin: auto;
+    padding-left: 45px;
+    padding-top: 33px;
+    padding-bottom: 14px;
+    color: #666666;
+}
+.star
+{
+    float: left; 
+    margin-top: 36px;
+    margin-left: 6px;
+}
+.c{
+    height: 25px;
+    width: 340px;
+    margin-right: 362px;
+    margin-left: 55px;
+    border:1px solid #dbdbdb;
+}
+.bb{
+    font-size: 14px;
+    display: block;
+    float: left;
+    margin: auto;
+    padding-left: 45px;
+    padding-top: 33px;
+    padding-bottom: 21px;
+    color: #666666;
+}
+.d{
+    display: block;
+    margin-top: 74px;
+    margin-left: 55px;
+    margin-right: 800px;  
+    position: absolute;
+}
+.dd{
+    display: block;
+    margin-left: 55px;
+    margin-right: 800px;
+    margin-top: 15px;
+    position: absolute;
+}
+.e{
+    display: block;
+    font-size: 12px;
+    margin: auto;
+    padding-top: 72px;
+    padding-left: 55px;
+    color: #666666;
+}
+.ee{
+    display: block;
+    margin: auto;
+    font-size: 12px;
+    padding-left: 73.5px;
+    padding-top: 12px;
+    color: #666666;
+}
+.cc{
+    height: 25px;
+    width: 361px;
+    margin-right: 392px;
+    margin-left: 55px;
+    border:1px solid #dbdbdb;
+    background-image: url(../EX10-1/images/phone.png);
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 20px;
+}
+.f{
+    width: 136px;
+    height: 20px;
+    margin-right: 10px;
+    border:1px solid #dbdbdb;
+    float: left;
+}
+.g{
+    width: 94px;
+    height: 20px;
+     margin-right:10px;
+    border:1px solid #dbdbdb;
+    float: left;
+}
+.h{
+    width: 98px;
+    height: 20px;
+    float: left;   
+    border:1px solid #dbdbdb;
+}
+.fgh{
+    margin-top: 68px;
+    width: 387px;
+    height: 20px;
+    margin-left: 55px;
+    margin-right: 405px;
+}
+option{
+    color: #666666;
+}
+select{
+    color: #666666;
+}
+textarea{
+    color: #666666;
+}
+.i{
+    height: 46px;
+    width: 359px;
+    resize: none;
+    border:1px solid #dbdbdb;
+    margin-left: 55px;
+    margin-top: 10px;
+    position: absolute;
+}
+.j{
+    font-size: 14px;
+    display: block;
+    float: left;
+    margin: auto;
+    padding-left: 45px;
+    padding-top: 90px;
+    padding-bottom: 14px;
+    color: #666666;
+}
+.starr{
+    float: left; 
+    margin-top: 93px;
+    margin-left: 6px;
+}
+.jj{
+    display: block;
+    margin-top: 127px;
+    margin-left: 56px;
+    margin-right: 741px;  
+    position: absolute;
+    color: #666666;
+}
+.jjj{
+    display: block;
+    font-size: 12px;
+    margin: auto;
+    padding-top: 124px;
+    padding-left: 75px;
+    color: #666666;
+}
+.jjjj{
+    display: block;
+    margin-top: 15px;
+    margin-left: 56px;
+    margin-right: 741px;  
+    position: absolute;
+    color: #666666;
+}
+.jjjjj{
+    display: block;
+    font-size: 12px;
+    margin: auto;
+    padding-top: 13px;
+    padding-left: 75px;
+    color: #666666;
+}
+.k{
+    display: block;
+    margin-top: 19px;
+    margin-left: 56px;
+    margin-right: 741px;  
+    position: absolute;
+}
+.kk{
+    width: 149px;
+    height: 23px;
+    margin-left: 10px;
+    border:1px solid #dbdbdb;
+
+}
+.l{
+    height: 31px;
+    width: 180px;
+    margin-right: 577px;
+    margin-left: 55px;
+    border:1px solid #dbdbdb;
+    background-image: url(../EX10-1/images/rili.png);
+    background-repeat: no-repeat;
+    background-position: 160px;    
+}
+.o{
+    width: 732px;
+    height: 40px;
+    border:1px solid #dbdbdb;
+    margin-left: 55px;
+    /* background-image: url(../EX10-1/images/new_file.png); */
+    opacity: 0;
+}
+.fileA{
+    background-image: url(../EX10-1/images/new_new_file.png);
+    background-position: 63px 68px;
+    background-repeat: no-repeat;  
+}
+.p{
+    height: 36px;
+    width: 104px;
+    color: #ffffff;
+    background-color: #53a4f4;
+    border: 0px;
+    border-radius:4px;
+    margin-left: 60px;
+    margin-top: 55px;
+}
